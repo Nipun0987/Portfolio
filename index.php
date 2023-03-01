@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Nipun Bansal Portfolio</title>
+    <title>Nipun Bansal</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     <!-- Favicon -->
-    <link href="assets/img/logo.jpg" rel="icon">
+    <link href="assets/img/nb.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +29,7 @@
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
-            <h1 class="m-0 display-5"><span class="text-primary">Nipun's</span>PortFolio</h1>
+            <h1 class="m-0 display-2 n"><span class="text-primary">Nipun</span>Bansal</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -59,10 +59,10 @@
                     <h3 class="text-white font-weight-normal mb-3">I'm</h3>
                     <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">
                         Nipun Bansal</h1>
-                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white display-2"></h1>
                     <div class="typed-text d-none">Full Stack Developer, Web Designer, Web Developer, Front End Developer, Back End Developer</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="assets/img/nipun_bansal.pdf" class="btn btn-outline-light mr-5">Download CV</a>
+                        <a href="assets/img/nipun_bansal.pdf" target="blank" class="btn btn-outline-light">Download CV</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
     <div class="container-fluid py-5" id="about">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">About</h1>
                 <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
             </div>
             <div class="row align-items-center">
@@ -127,7 +127,7 @@
     <div class="container-fluid py-5" id="qualification">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Education</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">Education</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Education</h1>
             </div>
             <div class="row align-items-center">
@@ -159,7 +159,7 @@
 
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
-                            <h5 class="font-weight-bold mb-1">Full Stack Developer</h5>
+                            <h5 class="font-weight-bold mb-1">Full Stack Development</h5>
                             <p class="mb-2"><strong>Delhi School Of Skill Development(DSSD)</strong></p>
                             <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet
                                 dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem
@@ -168,7 +168,7 @@
                         <div class="position-relative mb-4">
                             <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
                             <h5 class="font-weight-bold mb-1">B.Com</h5>
-                            <p class="mb-2"><strong>DU Sol</strong> | <small>Studing</small></p>
+                            <p class="mb-2"><strong>DU (Delhi University)</strong> | <small>Studing</small></p>
                             <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet
                                 dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem
                                 diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
@@ -185,7 +185,7 @@
     <div class="container-fluid py-5" id="skill">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">Skills</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
             </div>
             <div class="row align-items-center">
@@ -298,7 +298,7 @@
     <div class="container-fluid pt-5" id="service">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">Service</h1>
                 <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
             </div>
             <div class="row pb-3">
@@ -340,7 +340,7 @@
     <div class="container-fluid py-5" id="contact">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">Contact</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
             </div>
             <div class="row justify-content-center">
