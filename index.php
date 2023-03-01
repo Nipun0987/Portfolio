@@ -83,10 +83,7 @@
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">Web Designer & Web Developer</h3>
-                    <p>A unique and effective way of organizing your personal information on the web is
-                        to create an online business card (vCard). In doing so, we learn who the
-                        designer is, other places to connect with him, and how to get in touch with him.
-                    </p>
+                    <p> A unique and effectual way of organizing your idiomatic information on the web is to beget an online business card( vCard). In doing so, we learn who the developer is, different places to catenate with him, and how to get in touch with him. </p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2">
                             <h6>Name: <span class="text-secondary">Nipun Bansal</span></h6>
@@ -209,7 +206,7 @@
                             <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                    
+
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">JQuery</h6>
@@ -250,7 +247,7 @@
                             <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                   
+
                     <div class="skill mb-4">
                         <div class="d-flex justify-content-between">
                             <h6 class="font-weight-bold">JavaScript</h6>
