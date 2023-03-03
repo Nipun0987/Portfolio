@@ -13,8 +13,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
+
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/brands.min.css" rel="stylesheet">
+    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
+    <link href="assets/css/solid.min.css" rel="stylesheet">
+    <link href="assets/css/regular.min.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -22,6 +28,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
+    
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -333,6 +340,79 @@
     </div>
     <!-- Services End -->
 
+    <!-- Testimonial Start -->
+
+    <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;"></h1>
+                <h1 class="position-absolute text-uppercase text-primary">Testimonials</h1>
+            </div>
+           
+            <div class="card card1" style="width: 18rem;">
+  <img src="assets/img/capture.png" class="card-img-top" alt="...">
+  <div class="card-body">
+  
+    <h5 class="card-title"><i class="fa-solid fa-user"></i> Rachit Aggarwal</h5>
+    <p class="card-text">Comapny Head</p>
+    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+   
+    </div>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Rachit Says...
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">  
+    <!-- <div class="modal-content"> -->
+      <div class="modal-header">
+        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+      </div>
+      <!-- <div class="modal-body "> -->
+        <img src="assets/img/test1.jpg" class="rachitsays">    
+      <!-- </div> -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    <!-- </div> -->
+  </div>
+</div>
+
+ 
+</div>
+
+
+<div class="card card2" style="width: 18rem;">
+  <img src="assets/img/chenab.png" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title"><i class="fa-solid fa-user"></i> Chenab Sonkar</h5>
+    <p class="card-text">Digital Marketer</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
+<div class="card card3" style="width: 18rem;">
+  <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title"><i class="fa-solid fa-user"></i> Dishant</h5>
+    <p class="card-text">Junior Assistant</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Testimonial End  -->
+
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">
         <div class="container">
@@ -423,6 +503,16 @@
 
     <!-- Template Javascript -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Font Awesome Links  -->
+     <script src="assets/js/all.min.js"></script>
+     <script src="assets/js/brands.min.js"></script>        
+     <script src="assets/js/fontawesome.min.js"></script>
+     <script src="assets/js/solid.min.js"></script>
+     <script src="assets/js/regular.min.js"></script>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
