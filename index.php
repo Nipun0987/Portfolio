@@ -1,3 +1,30 @@
+<!-- <?php
+if (isset($_POST['submit'])) {
+    $name = $_POST['ename'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $to = "nipunbansal0987@gmail.com";
+    $subject = "My subject";
+
+
+    $txt = $name;
+    $txt .= $email;
+    $txt .= $subject;
+    $txt .= $message;
+
+    $headers = "From: testing" . "\r\n";
+
+    $mail = mail($to, $subject, $txt, $headers);
+
+    if ($mail) {
+        echo "sent";
+    } else {
+        echo "error";
+    }
+}
+?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -28,7 +55,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="assets/css/style.css" rel="stylesheet">
-    
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -348,61 +375,61 @@
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;"></h1>
                 <h1 class="position-absolute text-uppercase text-primary">Testimonials</h1>
             </div>
-           
+
             <div class="card card1" style="width: 18rem;">
-  <img src="assets/img/capture.png" class="card-img-top" alt="...">
-  <div class="card-body">
-  
-    <h5 class="card-title"><i class="fa-solid fa-user"></i> Rachit Aggarwal</h5>
-    <p class="card-text">Comapny Head</p>
-    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-   
-    </div>
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Rachit Says...
-</button>
+                <img src="assets/img/capture.png" class="card-img-top" alt="...">
+                <div class="card-body">
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">  
-    <!-- <div class="modal-content"> -->
-      <div class="modal-header">
-        <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-      </div>
-      <!-- <div class="modal-body "> -->
-        <img src="assets/img/test1.jpg" class="rachitsays">    
-      <!-- </div> -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      </div>
-    <!-- </div> -->
-  </div>
-</div>
+                    <h5 class="card-title"><i class="fa-solid fa-user"></i> Rachit Aggarwal</h5>
+                    <p class="card-text">Comapny Head</p>
+                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 
- 
-</div>
+                </div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Rachit Says...
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <!-- <div class="modal-content"> -->
+                        <div class="modal-header">
+                            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                        </div>
+                        <!-- <div class="modal-body "> -->
+                        <img src="assets/img/test1.jpg" class="rachitsays">
+                        <!-- </div> -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                </div>
 
 
-<div class="card card2" style="width: 18rem;">
-  <img src="assets/img/chenab.png" class="card-img-top" alt="...">
-  <div class="card-body">
-  <h5 class="card-title"><i class="fa-solid fa-user"></i> Chenab Sonkar</h5>
-    <p class="card-text">Digital Marketer</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+            </div>
 
 
-<div class="card card3" style="width: 18rem;">
-  <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
-  <div class="card-body">
-  <h5 class="card-title"><i class="fa-solid fa-user"></i> Dishant</h5>
-    <p class="card-text">Junior Assistant</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+            <div class="card card2" style="width: 18rem;">
+                <img src="assets/img/chenab.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fa-solid fa-user"></i> Chenab Sonkar</h5>
+                    <p class="card-text">Digital Marketer</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+
+            <div class="card card3" style="width: 18rem;">
+                <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><i class="fa-solid fa-user"></i> Dishant</h5>
+                    <p class="card-text">Junior Assistant</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
 
         </div>
     </div>
@@ -424,23 +451,23 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" action="mailto:nipunbansal0987@gmail.com" method="post" enctype="text/plain" id="contactForm" novalidate="novalidate">
+                        <form name="sentMessage" method="post" enctype="text/plain" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" name="name" class="form-control p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" name="email" class="form-control p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" name="subject" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control py-3 px-4" name="message" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
@@ -505,14 +532,14 @@
     <script src="assets/js/main.js"></script>
 
     <!-- Font Awesome Links  -->
-     <script src="assets/js/all.min.js"></script>
-     <script src="assets/js/brands.min.js"></script>        
-     <script src="assets/js/fontawesome.min.js"></script>
-     <script src="assets/js/solid.min.js"></script>
-     <script src="assets/js/regular.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/js/brands.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/solid.min.js"></script>
+    <script src="assets/js/regular.min.js"></script>
 
 
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>

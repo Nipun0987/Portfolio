@@ -10039,11 +10039,11 @@ h6,
   
 }
 
-/* .card img:hover{
+.card img:hover{
   box-shadow: 5px 5px 5px 2px grey;
   transform: scale(0.9);
   transition: 0.9s;
-} */
+}
 
 .modal{
   border-radius: 50%!important;
