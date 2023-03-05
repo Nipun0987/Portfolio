@@ -1,30 +1,30 @@
 <!-- <?php
-if (isset($_POST['submit'])) {
-    $name = $_POST['ename'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+        if (isset($_POST['submit'])) {
+            $name = $_POST['ename'];
+            $email = $_POST['email'];
+            $subject = $_POST['subject'];
+            $message = $_POST['message'];
 
-    $to = "nipunbansal0987@gmail.com";
-    $subject = "My subject";
+            $to = "nipunbansal0987@gmail.com";
+            $subject = "My subject";
 
 
-    $txt = $name;
-    $txt .= $email;
-    $txt .= $subject;
-    $txt .= $message;
+            $txt = $name;
+            $txt .= $email;
+            $txt .= $subject;
+            $txt .= $message;
 
-    $headers = "From: testing" . "\r\n";
+            $headers = "From: testing" . "\r\n";
 
-    $mail = mail($to, $subject, $txt, $headers);
+            $mail = mail($to, $subject, $txt, $headers);
 
-    if ($mail) {
-        echo "sent";
-    } else {
-        echo "error";
-    }
-}
-?> -->
+            if ($mail) {
+                echo "sent";
+            } else {
+                echo "error";
+            }
+        }
+        ?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -75,6 +75,7 @@ if (isset($_POST['submit'])) {
                 <a href="#qualification" class="nav-item nav-link">Quality</a>
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonials</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
             <a href="#contact" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
@@ -153,7 +154,6 @@ if (isset($_POST['submit'])) {
     </div>
     <!-- About End -->
 
-
     <!-- Qualification Start -->
     <div class="container-fluid py-5" id="qualification">
         <div class="container">
@@ -210,7 +210,6 @@ if (isset($_POST['submit'])) {
         </div>
     </div>
     <!-- Qualification End -->
-
 
     <!-- Skill Start -->
     <div class="container-fluid py-5" id="skill">
@@ -324,7 +323,6 @@ if (isset($_POST['submit'])) {
     </div>
     <!-- Skill End -->
 
-
     <!-- Services Start -->
     <div class="container-fluid pt-5" id="service">
         <div class="container">
@@ -338,94 +336,79 @@ if (isset($_POST['submit'])) {
                         <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
                         <h4 class="font-weight-bold m-0">Full Stack Developer</h4>
                     </div>
-                    <p class="text-left">A full stack developer is a professional who has a good understanding of the entire web development process and can work on both the front-end and back-end parts of a web application. They are responsible for developing and maintaining the software applications that are used by end-users.
+                    <p>A full stack developer is a professional who has a good understanding of the entire web development process and can work on both the front-end and back-end parts of a web application. They are responsible for developing and maintaining the software applications that are used by end-users.
 
                     </p>
-                    <!-- <a class="border-bottom border-primary text-decoration-none" href="">Read More</a> -->
                     <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-Read More
-</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Read More
+                    </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-      <h5>Learn more about</h5>
-        <h1 class="modal-title fs-5" id="exampleModalLabel">FULL STACK DEVELOPER</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-      </div>
-      <div class="modal-body">
-     <p> A full stack developer is proficient in multiple programming languages, such as HTML, CSS, JavaScript, and other back-end languages such as Ruby on Rails, Python, or PHP. They also have knowledge of databases, server-side scripting, and web server management.</p>
-<br><br>
-<p>The front-end aspect of full stack development includes designing and implementing the user interface, which includes the layout, typography, and visual elements of the website. The back-end aspect involves managing the server-side components, such as server-side scripting, database management, and server-side security.</p>
-<br><br>
-<p>Full stack development is becoming increasingly popular as it allows developers to work on all aspects of a project, from designing the user interface to managing the server and databases. This makes it easier to develop web applications that are scalable, efficient, and user-friendly. It is also a highly sought-after skill in the tech industry, as it requires a broad range of technical knowledge and expertise.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-      </div>
-    </div>
-  </div>
-</div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">FULL STACK DEVELOPER</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p> A full stack developer is proficient in multiple programming languages, such as HTML, CSS, JavaScript, and other back-end languages such as Ruby on Rails, Python, or PHP. They also have knowledge of databases, server-side scripting, and web server management.</p>
+                                    <br><br>
+                                    <p>The front-end aspect of full stack development includes designing and implementing the user interface, which includes the layout, typography, and visual elements of the website. The back-end aspect involves managing the server-side components, such as server-side scripting, database management, and server-side security.</p>
+                                    <br><br>
+                                    <p>Full stack development is becoming increasingly popular as it allows developers to work on all aspects of a project, from designing the user interface to managing the server and databases. This makes it easier to develop web applications that are scalable, efficient, and user-friendly. It is also a highly sought-after skill in the tech industry, as it requires a broad range of technical knowledge and expertise.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-
-
 
                 <div class="col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
                         <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
                         <h4 class="font-weight-bold m-0">Web Design</h4>
                     </div>
-                    <p class="text-left">Web designing is the process of creating websites, which includes designing the layout, visual elements, and content for web pages. It involves using various design tools and techniques to create a visually appealing and functional website that is easy to use and navigate. </p>
-                    <!-- <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
-                 -->
+                    <p>Web designing is the process of creating websites, which includes designing the layout, visual elements, and content for web pages. It involves using various design tools and techniques to create a visually appealing and functional website that is easy to use and navigate. </p>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
- Read More
-</button>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        Read More
+                    </button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-      <h5>Learn more about</h5>
-        <h1 class="modal-title fs-5" id="exampleModalLabel2">WEB DESIGNING</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-      </div>
-      <div class="modal-body">
-  
-      <p>  Web designing can include a range of skills and disciplines, such as graphic design, user experience design, interface design, and search engine optimization (SEO). Web designers must be proficient in HTML, CSS, and JavaScript, and they should also be knowledgeable about web standards, accessibility, and usability.</p>
-<br><br>
-      <p>The goal of web designing is to create a website that is visually appealing, easy to use, and optimized for search engines. A well-designed website can help businesses attract and retain customers, establish credibility, and promote their brand online.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
-      </div>
-    </div>
-  </div>
-</div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel2">WEB DESIGNING</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <p> Web designing can include a range of skills and disciplines, such as graphic design, user experience design, interface design, and search engine optimization (SEO). Web designers must be proficient in HTML, CSS, and JavaScript, and they should also be knowledgeable about web standards, accessibility, and usability.</p>
+                                    <br><br>
+                                    <p>The goal of web designing is to create a website that is visually appealing, easy to use, and optimized for search engines. A well-designed website can help businesses attract and retain customers, establish credibility, and promote their brand online.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
-
-
-
-
 
                 <div class="col-lg-4 col-md-6 text-center mb-5">
                     <div class="d-flex align-items-center justify-content-center mb-4">
                         <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
                         <h4 class="font-weight-bold m-0">Web Development</h4>
                     </div>
-                    <p class="text-left">Web development refers to the process of creating websites or web applications, which involves writing code and programming languages to build the functionality and features of a website. It includes all the technical aspects of creating a website, such as server-side scripting, database management. </p>
-                    <!-- <a class="border-bottom border-primary text-decoration-none" href="">Read More</a> -->
+                    <p>Web development refers to the process of creating websites or web applications, which involves writing code and programming languages to build the functionality and features of a website. It includes all the technical aspects of creating a website, such as server-side scripting, database management. </p>
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
@@ -437,25 +420,18 @@ Read More
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5>Learn more about</h5>
                                     <h1 class="modal-title fs-5" id="exampleModalLabel3"> <br> WEB DEVELOPMENT</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
                                 </div>
                                 <div class="modal-body">
-                                   <p> Web development can be divided into two main categories: front-end development and back-end development. Front-end development involves designing and coding the visual elements of a website that users interact with, such as the layout, navigation, and forms. It typically involves languages such as HTML, CSS, and JavaScript.</p>
-<Br><br>
-                                   <p> Back-end development, on the other hand, focuses on the server-side of the website, including database management, security, and website performance. It typically involves programming languages such as PHP, Ruby, Python, and databases such as MySQL or MongoDB.</p>
-                                   <Br><br>
-                                   <p> Web development is a complex process that requires a combination of technical skills, creativity, and problem-solving abilities. The goal of web development is to create a website that functions smoothly, is user-friendly, and meets the business or organizational needs of the client.</p>
-
-
-
-
-
+                                    <p> Web development can be divided into two main categories: front-end development and back-end development. Front-end development involves designing and coding the visual elements of a website that users interact with, such as the layout, navigation, and forms. It typically involves languages such as HTML, CSS, and JavaScript.</p>
+                                    <Br><br>
+                                    <p> Back-end development, on the other hand, focuses on the server-side of the website, including database management, security, and website performance. It typically involves programming languages such as PHP, Ruby, Python, and databases such as MySQL or MongoDB.</p>
+                                    <Br><br>
+                                    <p> Web development is a complex process that requires a combination of technical skills, creativity, and problem-solving abilities. The goal of web development is to create a website that functions smoothly, is user-friendly, and meets the business or organizational needs of the client.</p>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                                 </div>
                             </div>
                         </div>
@@ -468,76 +444,122 @@ Read More
     <!-- Services End -->
 
     <!-- Testimonial Start -->
-
-    <div class="container-fluid py-5" id="testimonial">
+    <div class="container-fluid pt-5" id="testimonial">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;"></h1>
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">testimonial</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Testimonials</h1>
             </div>
 
-            <div class="card card1" style="width: 18rem;">
-                <img src="assets/img/capture.png" class="card-img-top" alt="...">
-                <div class="card-body">
+            <div class="row pb-3">
 
-                    <h5 class="card-title"><i class="fa-solid fa-user"></i> Rachit Aggarwal</h5>
-                    <p class="card-text">Comapny Head</p>
-                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="card card1" style="width: 18rem;">
+                        <img src="assets/img/capture.png" class="card-img-top" alt="...">
+                        <div class="card-body">
 
-                </div>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Rachit Says...
-                </button>
+                            <h5 class="card-title"><i class="fa-solid fa-user"></i> Rachit Aggarwal</h5>
+                            <p class="card-text">Comapny Head</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <!-- <div class="modal-content"> -->
-                        <div class="modal-header">
-                            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
                         </div>
-                        <!-- <div class="modal-body "> -->
-                        <img src="assets/img/test1.jpg" class="rachitsays">
-                        <!-- </div> -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Rachit Says...
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- <div class="modal-content"> -->
+                                <div class="modal-header">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <!-- <div class="modal-body "> -->
+                                <img src="assets/img/test1.jpg" class="rachitsays">
+                                <!-- </div> -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                                <!-- </div> -->
+                            </div>
                         </div>
-                        <!-- </div> -->
+
                     </div>
                 </div>
 
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="card card2" style="width: 18rem;">
+                        <img src="assets/img/chenab.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-solid fa-user"></i> Chenab Sonkar</h5>
+                            <p class="card-text">Digital Marketer</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Chenab Says...
+                        </button>
 
-            </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- <div class="modal-content"> -->
+                                <div class="modal-header">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <!-- <div class="modal-body "> -->
+                                <img src="assets/img/test1.jpg" class="rachitsays">
+                                <!-- </div> -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
 
-
-            <div class="card card2" style="width: 18rem;">
-                <img src="assets/img/chenab.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="fa-solid fa-user"></i> Chenab Sonkar</h5>
-                    <p class="card-text">Digital Marketer</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
 
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="card card3" style="width: 18rem;">
+                        <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fa-solid fa-user"></i> Dishant</h5>
+                            <p class="card-text">Junior Assistant</p>
+                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Dishant Says...
+                        </button>
 
-            <div class="card card3" style="width: 18rem;">
-                <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><i class="fa-solid fa-user"></i> Dishant</h5>
-                    <p class="card-text">Junior Assistant</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <!-- <div class="modal-content"> -->
+                                <div class="modal-header">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
+                                </div>
+                                <!-- <div class="modal-body "> -->
+                                <img src="assets/img/test1.jpg" class="rachitsays">
+                                <!-- </div> -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
-
-
-
-
-
     <!-- Testimonial End  -->
 
     <!-- Contact Start -->
@@ -586,10 +608,10 @@ Read More
     <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
         <div class="container text-center py-5">
             <div class="d-flex justify-content-center mb-4">
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/nipun-bansal-73b6a424b/"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-light btn-social" href="https://www.instagram.com/nipun_.bansal/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-light btn-social rounded-circle m-2 d-flex justify-content-center align-items-center fs-5" href="https://github.com/Nipun0987" target="blank"><i class="fab fa-github"></i></a>
+                <a class="btn btn-light btn-social rounded-circle m-2 d-flex justify-content-center align-items-center fs-5" href="https://www.facebook.com/nipunbansal0987?mibextid=ZbWKwL" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social rounded-circle m-2 d-flex justify-content-center align-items-center fs-5" href="https://www.linkedin.com/in/nipun-bansal-73b6a424b/" target="blank"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social rounded-circle m-2 d-flex justify-content-center align-items-center fs-5" href="https://instagram.com/nipuncodes/" target="blank"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="d-flex justify-content-center mb-3">
                 <a class="text-white" href="#">Privacy</a>
@@ -606,9 +628,6 @@ Read More
         </div>
     </div>
     <!-- Footer End -->
-
-    <!-- Scroll to Bottom -->
-    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
