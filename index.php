@@ -458,18 +458,18 @@
                         <img src="assets/img/capture.png" class="card-img-top" alt="...">
                         <div class="card-body">
 
-                            <h5 class="card-title"><i class="fa-solid fa-user"></i> Rachit Aggarwal</h5>
+                            <h5 class="card-title"><i class=" fa fa-solid fa-user"></i> Rachit Aggarwal</h5>
                             <p class="card-text">Comapny Head</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
 
                         </div>
                         <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
                             Rachit Says...
                         </button>
 
                         <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <!-- <div class="modal-content"> -->
                                 <div class="modal-header">
@@ -493,7 +493,7 @@
                     <div class="card card2" style="width: 18rem;">
                         <img src="assets/img/chenab.png" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa-solid fa-user"></i> Chenab Sonkar</h5>
+                            <h5 class="card-title"><i class=" fa fa-solid fa-user"></i> Chenab Sonkar</h5>
                             <p class="card-text">Digital Marketer</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
@@ -527,7 +527,7 @@
                     <div class="card card3" style="width: 18rem;">
                         <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fa-solid fa-user"></i> Dishant</h5>
+                            <h5 class="card-title"><i class=" fa fa-solid fa-user"></i> Dishant</h5>
                             <p class="card-text">Junior Assistant</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>

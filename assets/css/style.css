@@ -10035,7 +10035,7 @@ h6,
 .card img {
   max-width: 400px;
   max-height: 350px;
-  border-radius: 20%!important;
+  border-radius: 30px!important;
 }
 
 .card img:hover{
