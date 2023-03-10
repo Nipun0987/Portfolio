@@ -49,6 +49,9 @@
     <link href="assets/css/solid.min.css" rel="stylesheet">
     <link href="assets/css/regular.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
     <!-- Libraries Stylesheet -->
     <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
@@ -62,7 +65,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
-        <a href="index.html" class="navbar-brand ml-lg-3">
+        <a href="#" class="navbar-brand ml-lg-3">
             <h1 class="m-0 display-2 n"><span class="text-primary">Nipun</span>Bansal</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -453,108 +456,11 @@
 
             <div class="row pb-3">
 
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="card card1" style="width: 18rem;">
-                        <img src="assets/img/capture.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-
-                            <h5 class="card-title"><i class=" fa fa-solid fa-user"></i> Rachit Aggarwal</h5>
-                            <p class="card-text">Comapny Head</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-
-                        </div>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                            Rachit Says...
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <!-- <div class="modal-content"> -->
-                                <div class="modal-header">
-                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-                                </div>
-                                <!-- <div class="modal-body "> -->
-                                <img src="assets/img/test1.jpg" class="rachitsays">
-                                <!-- </div> -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                                <!-- </div> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="card card2" style="width: 18rem;">
-                        <img src="assets/img/chenab.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class=" fa fa-solid fa-user"></i> Chenab Sonkar</h5>
-                            <p class="card-text">Digital Marketer</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Chenab Says...
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <!-- <div class="modal-content"> -->
-                                <div class="modal-header">
-                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-                                </div>
-                                <!-- <div class="modal-body "> -->
-                                <img src="assets/img/test1.jpg" class="rachitsays">
-                                <!-- </div> -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                                <!-- </div> -->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 text-center mb-5">
-                    <div class="card card3" style="width: 18rem;">
-                        <img src="assets/img/dishant.PNG" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title"><i class=" fa fa-solid fa-user"></i> Dishant</h5>
-                            <p class="card-text">Junior Assistant</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
-                        </div>
-                        <!-- Button trigger modal -->
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Dishant Says...
-                        </button>
-
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog">
-                                <!-- <div class="modal-content"> -->
-                                <div class="modal-header">
-                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">X</button>
-                                </div>
-                                <!-- <div class="modal-body "> -->
-                                <img src="assets/img/test1.jpg" class="rachitsays">
-                                <!-- </div> -->
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                                <!-- </div> -->
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="multiple-items">
+                    <div><img src="assets/img/1.jpeg" alt=""></div>
+                    <div><img src="assets/img/1.jpeg" alt=""></div>
+                    <div><img src="assets/img/1.jpeg" alt=""></div>
+                    <div><img src="assets/img/1.jpeg" alt=""></div>
                 </div>
 
             </div>
@@ -657,6 +563,14 @@
     <script src="assets/js/solid.min.js"></script>
     <script src="assets/js/regular.min.js"></script>
 
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.multiple-items').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 3
+        });
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
