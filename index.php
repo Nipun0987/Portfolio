@@ -50,6 +50,7 @@
     <link href="assets/css/regular.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
 
 
     <!-- Libraries Stylesheet -->
@@ -447,25 +448,159 @@
     <!-- Services End -->
 
     <!-- Testimonial Start -->
+    <!-- Testimonial Carousel -->
     <div class="container-fluid pt-5" id="testimonial">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">testimonial</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Testimonials</h1>
             </div>
+            <div class="testimonial-reel">
 
-            <div class="row pb-3">
 
-                <div class="multiple-items">
-                    <div><img src="assets/img/1.jpeg" alt=""></div>
-                    <div><img src="assets/img/1.jpeg" alt=""></div>
-                    <div><img src="assets/img/1.jpeg" alt=""></div>
-                    <div><img src="assets/img/1.jpeg" alt=""></div>
+                <!-- Testimonial -->
+                <div>
+
+                    <div class="box">
+
+                        <!-- Testimonial Image -->
+                        <figure class="image">
+                            <img class="img-fluid rounded-circle" src="assets/img/chenab.PNG">
+                        </figure>
+                        <!-- / Testimonial Image -->
+
+                        <div class="test-component">
+                            <!-- Title -->
+                            <article class="test-title">
+
+                                <h4>
+                                    Efecha Omoware
+                                </h4>
+
+                            </article>
+                            <!-- / Title -->
+
+                            <article class="test-content">
+                                <p>
+                                    I now enjoy financial freedom like I’ve never know before doing what I love.
+                                </p>
+                            </article>
+
+                        </div>
+
+                    </div>
+
                 </div>
+                <!-- / Testimonial -->
 
+                <!-- Testimonial -->
+                <div>
+
+                    <div class="box">
+
+                        <!-- Testimonial Image -->
+                        <figure class="image">
+                            <img class="img-fluid rounded-circle" src="assets/img/rachit.PNG">
+                        </figure>
+                        <!-- / Testimonial Image -->
+
+                        <div class="test-component">
+                            <!-- Title -->
+                            <article class="test-title">
+
+                                <h4>
+                                    Efecha Omoware
+                                </h4>
+
+                            </article>
+                            <!-- / Title -->
+
+                            <article class="test-content">
+                                <p>
+                                    I now enjoy financial freedom like I’ve never know before doing what I love.
+                                </p>
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- / Testimonial -->
+
+                <!-- Testimonial -->
+                <div>
+
+                    <div class="box">
+
+                        <!-- Testimonial Image -->
+                        <figure class="image">
+                            <img class="img-fluid rounded-circle" src="assets/img/dishant.PNG">
+                        </figure>
+                        <!-- / Testimonial Image -->
+
+                        <div class="test-component">
+                            <!-- Title -->
+                            <article class="test-title">
+
+                                <h4>
+                                    Efecha Omoware
+                                </h4>
+
+                            </article>
+                            <!-- / Title -->
+
+                            <article class="test-content">
+                                <p>
+                                    I now enjoy financial freedom like I’ve never know before doing what I love.
+                                </p>
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- / Testimonial -->
+
+                <!-- Testimonial -->
+                <div>
+
+                    <div class="box">
+
+                        <!-- Testimonial Image -->
+                        <figure class="image">
+                            <img class="img-fluid rounded-circle" src="assets/img/rachit.PNG">
+                        </figure>
+                        <!-- / Testimonial Image -->
+
+                        <div class="test-component">
+                            <!-- Title -->
+                            <article class="test-title">
+
+                                <h4>
+                                    Efecha Omoware
+                                </h4>
+
+                            </article>
+                            <!-- / Title -->
+
+                            <article class="test-content">
+                                <p>
+                                    I now enjoy financial freedom like I’ve never know before doing what I love.
+                                </p>
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- / Testimonial -->
             </div>
         </div>
     </div>
+    <!-- / Testimonial Carousel -->
     <!-- Testimonial End  -->
 
     <!-- Contact Start -->
@@ -563,16 +698,35 @@
     <script src="assets/js/solid.min.js"></script>
     <script src="assets/js/regular.min.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-        $('.multiple-items').slick({
-            infinite: true,
+        //Slick Carousel Controllers
+        $(".testimonial-reel").slick({
+            centerMode: true,
+            centerPadding: "40px",
+            dots: true,
             slidesToShow: 3,
-            slidesToScroll: 3
+            infinite: true,
+            arrows: false,
+            lazyLoad: "ondemand",
+            responsive: [{
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        centerMode: false
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
         });
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
