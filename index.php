@@ -1,30 +1,3 @@
-<!-- <?php
-        if (isset($_POST['submit'])) {
-            $name = $_POST['ename'];
-            $email = $_POST['email'];
-            $subject = $_POST['subject'];
-            $message = $_POST['message'];
-
-            $to = "nipunbansal0987@gmail.com";
-            $subject = "My subject";
-
-
-            $txt = $name;
-            $txt .= $email;
-            $txt .= $subject;
-            $txt .= $message;
-
-            $headers = "From: testing" . "\r\n";
-
-            $mail = mail($to, $subject, $txt, $headers);
-
-            if ($mail) {
-                echo "sent";
-            } else {
-                echo "error";
-            }
-        }
-        ?> -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +35,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="51">
+<body data-spy="scroll" data-target=".navbar" data-offset="51" class="body-no-select" oncontextmenu="return false;">
 
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
@@ -673,6 +646,15 @@
     <!-- Back to Top -->
     <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
+    <!-- right click disable  -->
+    <div id="myModal" class="modali">
+        <div class="modali-content">
+            <span class="close">&times;</span>
+            <p>Right-clicking is disabled on this website.</p>
+        </div>
+    </div>
+
+
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -726,6 +708,31 @@
             ]
         });
     </script>
+
+    <!-- right click disable start -->
+    <script>
+        document.addEventListener('contextmenu', event => {
+            event.preventDefault();
+            const modal = document.getElementById('myModal');
+            const closeBtn = document.getElementsByClassName('close')[0];
+            modal.style.display = "block";
+            closeBtn.onclick = function() {
+                modal.style.display = "none";
+            }
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        });
+    </script>
+    <!-- right click disable on particular element -->
+    <!-- <script>
+        const target = document.getElementById('targetElementId');
+        target.addEventListener('contextmenu', event => event.preventDefault());
+    </script> -->
+    <!-- right click disable on particular element -->
+    <!-- right click disable end -->
 
 </body>
 
