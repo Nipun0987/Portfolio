@@ -16,11 +16,6 @@
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/brands.min.css" rel="stylesheet">
-    <link href="assets/css/fontawesome.min.css" rel="stylesheet">
-    <link href="assets/css/solid.min.css" rel="stylesheet">
-    <link href="assets/css/regular.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" />
@@ -60,6 +55,24 @@
     </nav>
     <!-- Navbar End -->
 
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
     <!-- Header Start -->
     <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
         <div class="container">
@@ -75,6 +88,10 @@
                     <div class="typed-text d-none">Full Stack Developer, Web Designer, Web Developer, Front End Developer, Back End Developer</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
                         <a href="assets/img/nipun_bansal.pdf" target="blank" class="btn btn-outline-light">Download CV</a>
+                        <button type="button" class="btn-play m-10px" data-toggle="modal" data-src="assets/img/v.mp4" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
                     </div>
                 </div>
             </div>
@@ -421,160 +438,88 @@
     <!-- Services End -->
 
     <!-- Testimonial Start -->
-    <!-- Testimonial Carousel -->
     <div class="container-fluid pt-5" id="testimonial">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #d9d9d9;">testimonial</h1>
                 <h1 class="position-absolute text-uppercase text-primary">Testimonials</h1>
             </div>
-            <div class="testimonial-reel">
-
-
-                <!-- Testimonial -->
-                <div>
-
-                    <div class="box">
-
-                        <!-- Testimonial Image -->
-                        <figure class="image">
-                            <img class="img-fluid rounded-circle" src="assets/img/chenab.PNG">
-                        </figure>
-                        <!-- / Testimonial Image -->
-
-                        <div class="test-component">
-                            <!-- Title -->
-                            <article class="test-title">
-
-                                <h4>
-                                    Efecha Omoware
-                                </h4>
-
-                            </article>
-                            <!-- / Title -->
-
-                            <article class="test-content">
-                                <p>
-                                    I now enjoy financial freedom like I’ve never know before doing what I love.
-                                </p>
-                            </article>
-
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/rachit.png" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Rachit Aggarwal</h5>
+                            <span>Digital marketer</span>
                         </div>
-
-                    </div>
-
-                </div>
-                <!-- / Testimonial -->
-
-                <!-- Testimonial -->
-                <div>
-
-                    <div class="box">
-
-                        <!-- Testimonial Image -->
-                        <figure class="image">
-                            <img class="img-fluid rounded-circle" src="assets/img/rachit.PNG">
-                        </figure>
-                        <!-- / Testimonial Image -->
-
-                        <div class="test-component">
-                            <!-- Title -->
-                            <article class="test-title">
-
-                                <h4>
-                                    Efecha Omoware
-                                </h4>
-
-                            </article>
-                            <!-- / Title -->
-
-                            <article class="test-content">
-                                <p>
-                                    I now enjoy financial freedom like I’ve never know before doing what I love.
-                                </p>
-                            </article>
-
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/chenab.png" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Chenab Sonkar</h5>
+                            <span>Fashion Designer</span>
                         </div>
-
-                    </div>
-
-                </div>
-                <!-- / Testimonial -->
-
-                <!-- Testimonial -->
-                <div>
-
-                    <div class="box">
-
-                        <!-- Testimonial Image -->
-                        <figure class="image">
-                            <img class="img-fluid rounded-circle" src="assets/img/dishant.PNG">
-                        </figure>
-                        <!-- / Testimonial Image -->
-
-                        <div class="test-component">
-                            <!-- Title -->
-                            <article class="test-title">
-
-                                <h4>
-                                    Efecha Omoware
-                                </h4>
-
-                            </article>
-                            <!-- / Title -->
-
-                            <article class="test-content">
-                                <p>
-                                    I now enjoy financial freedom like I’ve never know before doing what I love.
-                                </p>
-                            </article>
-
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="assets/img/dishant.png" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Dishant</h5>
+                            <span>Event Manager</span>
                         </div>
-
                     </div>
-
                 </div>
-                <!-- / Testimonial -->
-
-                <!-- Testimonial -->
-                <div>
-
-                    <div class="box">
-
-                        <!-- Testimonial Image -->
-                        <figure class="image">
-                            <img class="img-fluid rounded-circle" src="assets/img/rachit.PNG">
-                        </figure>
-                        <!-- / Testimonial Image -->
-
-                        <div class="test-component">
-                            <!-- Title -->
-                            <article class="test-title">
-
-                                <h4>
-                                    Efecha Omoware
-                                </h4>
-
-                            </article>
-                            <!-- / Title -->
-
-                            <article class="test-content">
-                                <p>
-                                    I now enjoy financial freedom like I’ve never know before doing what I love.
-                                </p>
-                            </article>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- / Testimonial -->
             </div>
         </div>
     </div>
-    <!-- / Testimonial Carousel -->
     <!-- Testimonial End  -->
+
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="assets/img/blog-1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="assets/img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="assets/img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
 
     <!-- Contact Start -->
     <div class="container-fluid py-5" id="contact">

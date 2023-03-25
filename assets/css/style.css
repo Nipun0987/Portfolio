@@ -11067,6 +11067,7 @@ h6,
   display: block;
   box-sizing: content-box;
   width: 16px;
+  margin-left: 60px;
   height: 26px;
   border-radius: 100%;
   border: none;
@@ -11144,7 +11145,6 @@ h6,
   width: 30px;
   height: 30px;
   right: 0px;
-  top: -30px;
   z-index: 999;
   font-size: 30px;
   font-weight: normal;
@@ -11191,7 +11191,7 @@ h6,
   left: 30px;
 }
 
-/* .testimonial-carousel .owl-dots {
+.testimonial-carousel .owl-dots {
   margin-top: 25px;
   text-align: center;
 }
@@ -11207,7 +11207,7 @@ h6,
 
 .testimonial-carousel .owl-dot.active {
   background: #0BCEAF;
-} */
+}
 
 .blog-date {
   position: absolute;
@@ -11229,109 +11229,8 @@ h6,
   list-style-type: none;
 }
 
-/* @media (max-width: 435px) {
-  .control-group {
-    width: 100px ;
-  }
-} */
-
-
-
-
-
-.card {
-  display: inline-block !important;
-  margin-top: 8%;
-  margin-left: 5%;
-  border: none !important;
-
-}
-
-.card2 {
-  margin-left: 8%;
-}
-
-.card3 {
-  margin-left: 8%;
-}
-
-
-.card img {
-  max-width: 400px;
-  max-height: 350px;
-  border-radius: 30px !important;
-}
-
-.card img:hover {
-  box-shadow: 5px 5px 5px 2px grey;
-  transform: scale(0.9);
-  transition: 0.9s;
-}
-
 .modal {
   border-radius: 50% !important;
-}
-
-.rachitsays {
-  width: 100% !important;
-  height: 1000px !important;
-  border-radius: none !important;
-}
-
-.testimonial-reel {
-  margin-bottom: 4rem !important;
-  margin-top: 4rem;
-}
-
-.testimonial-reel .box {
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.testimonial-reel .box .image {
-  margin: 0 auto -45px;
-  text-align: center;
-}
-
-.testimonial-reel .box .image img {
-  height: 130px;
-  margin: 0 auto;
-}
-
-.testimonial-reel .box .test-component {
-  background-color: #fff;
-  padding: 1rem 2.5rem;
-  box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.15);
-  min-height: 200px;
-}
-
-.testimonial-reel .box .test-title {
-  font-family: "Open Sans", sans-serif;
-  color: #f96d02;
-  text-align: center;
-  margin-top: 3.3rem;
-  margin-bottom: 15px;
-}
-
-.testimonial-reel .box .test-content {
-  text-align: center;
-}
-
-.testimonial-reel .slick-slide {
-  opacity: 0.3;
-  transition: opacity 0.3s;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.testimonial-reel .slick-slide.slick-cloned {
-  opacity: 0.3;
-  transition: opacity 0.3s;
-}
-
-.testimonial-reel .slick-slide.slick-current.slick-active {
-  opacity: 1;
-  transition: opacity 0.3s;
 }
 
 /* The Modal (background) */
@@ -11368,15 +11267,7 @@ h6,
 .modali-content p {
   color: red;
   font-weight: bold;
-}
-
-/* The Close Button */
-.close {
-  color: green;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
+} 
 
 .close:hover,
 .close:focus {
