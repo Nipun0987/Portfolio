@@ -581,9 +581,7 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">nipunbansal.com</a>.
-                All Rights Reserved. Designed by Nipun Bansal</a>
-            </p>
+            <p class="m-0">&copy; Copyright <?php echo date('Y') ?> nipunbansal.com . All Rights Reserved.</p>
         </div>
     </div>
     <!-- Footer End -->
