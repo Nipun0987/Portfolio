@@ -8,13 +8,13 @@
             <a class="btn btn-light btn-social rounded-circle m-2 d-flex justify-content-center align-items-center fs-5" href="https://instagram.com/nipuncodes/" target="blank"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="d-flex justify-content-center mb-3">
-            <a class="text-white" href="#">Privacy</a>
+            <a class="text-white" target="blank" href="privacy.php">Privacy</a>
             <span class="px-3">|</span>
-            <a class="text-white" href="#">Terms</a>
+            <a class="text-white" target="blank" href="terms.php">Terms</a>
             <span class="px-3">|</span>
-            <a class="text-white" href="#">FAQs</a>
+            <a class="text-white" target="blank" href="faq.php">FAQs</a>
             <span class="px-3">|</span>
-            <a class="text-white" href="#">Help</a>
+            <a class="text-white" target="blank" href="help.php">Help</a>
         </div>
         <p class="m-0">&copy; Copyright <?php echo date('Y') ?> nipunbansal.com . All Rights Reserved.</p>
     </div>

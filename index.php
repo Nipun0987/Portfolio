@@ -429,7 +429,7 @@
                     </div>
                 </div>
                 <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                <a class="btn btn-sm btn-outline-primary py-2" href="blog_1.php">Read More</a>
             </div>
             <div class="col-lg-4 mb-5">
                 <div class="position-relative mb-4">
@@ -440,7 +440,7 @@
                     </div>
                 </div>
                 <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                <a class="btn btn-sm btn-outline-primary py-2" href="blog_2.php">Read More</a>
             </div>
             <div class="col-lg-4 mb-5">
                 <div class="position-relative mb-4">
@@ -451,7 +451,7 @@
                     </div>
                 </div>
                 <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
-                <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                <a class="btn btn-sm btn-outline-primary py-2" href="blog_3.php">Read More</a>
             </div>
         </div>
     </div>
@@ -499,4 +499,4 @@
 </div>
 <!-- Contact End -->
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
